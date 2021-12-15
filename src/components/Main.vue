@@ -4,7 +4,7 @@
         <!--头部区域-->
         <el-header>
             <img src="imgs/logo.png" alt="" class="logo">
-            <span>魔音灌耳</span>
+            <span>iListen</span>
 
             <!--头部搜索区域-->
             <el-input placeholder="搜索单曲,歌手,视频,歌单" v-model="searchData" @keyup.enter.native="toSearchPage" size="mini" suffix-icon="el-icon-search">
